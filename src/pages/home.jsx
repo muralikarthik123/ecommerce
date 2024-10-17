@@ -14,6 +14,7 @@ export default function home() {
           </div>
           <div className='icon1'>
             <FaShoppingCart className='iconfont'/>
+            
           </div>
         </div>
 
@@ -21,8 +22,8 @@ export default function home() {
       <div className='c2'>
         <ul>
             <li><Link  style={{textDecoration:'none',color:'black'}}to='/'>Our Products</Link></li>
-            <li><Link style={{textDecoration:'none',color:'black'}}to='/com'>Computer</Link></li>
-            <li Link to='lap'>Laptop</li>
+            <li><Link style={{textDecoration:'none',color:'black'}}to='/com'>Laptops</Link></li>
+            <li Link to='lap'>Computers</li>
             <li Link to='/mob'>Mobile</li>
             <li Link to='/tab'>Tablet</li>
             <li Link to='/drone'>Drones & Camera</li>

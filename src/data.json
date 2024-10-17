@@ -1,0 +1,20 @@
+[
+    {
+    "id":"1",
+    "name":"Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey",
+    "image":"./img4.png",
+    "price":"60000"
+    },
+    {
+        "id":"2",
+        "name":"Air 15″ Laptop with M2 chip: 38.91 cm (15.3″) Liquid Retina Display, 8GB Unified Memory, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID- Midnight",
+        "image":"./img5.jpg",
+        "price":"120000"
+    },
+    {
+        "id":"3",
+        "name":"Apple 2024 MacBook Air 13″ Laptop with M3 chip: 34.46 cm (13.6″) Liquid Retina Display, 8GB Unified Memory, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID- Space Grey",
+        "image":"./img6.jpg",
+        "price":"1200000"
+    }
+]
