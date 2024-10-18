@@ -19,7 +19,7 @@ export default function Computer() {
         </div>
       </div>
 
-      <h1 style={{textAlign:"center",textDecoration:'underline'}}>Macbooks</h1>
+      
       {/*searching */}
       {Data.filter(item=> item.name.toLowerCase().includes(data.toLowerCase())).map((item)=>(
       <div className='items' key={item.id}>

@@ -9,12 +9,32 @@
         "id":"2",
         "name":"Air 15″ Laptop with M2 chip: 38.91 cm (15.3″) Liquid Retina Display, 8GB Unified Memory, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID- Midnight",
         "image":"./img5.jpg",
-        "price":"120000"
+        "price":"80000"
     },
     {
         "id":"3",
         "name":"Apple 2024 MacBook Air 13″ Laptop with M3 chip: 34.46 cm (13.6″) Liquid Retina Display, 8GB Unified Memory, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID- Space Grey",
         "image":"./img6.jpg",
-        "price":"1200000"
+        "price":"1,20,0000"
+    },
+    {
+        "id":"4",
+        "name":"Samsung Galaxy Book4 (Gray, 16GB RAM, 512GB SSD) | 15.6  Full HD Screen | Intel Core 5 120U Processor | Windows 11 Home | MS Office 2021 | Fingerprint Reader | Intel Iris XE Graphics | RJ45 LAN Port",
+        "image":"./img7.jpg",
+        "price":"64,000"
+
+    },
+    {    
+        "id":"5",
+        "name":"Samsung Galaxy Book3 Core i7 13th Gen 1355U - (16 GB/512 GB SSD/Windows 11 Home) Galaxy Book3 Thin and Light Laptop (15.6 Inch, Graphite, 1.58 Kg, with MS Office)",
+        "image":"./img8.jpg",
+        "price":"64,000"
+    },
+    {
+        "id":"6",
+        "name":"Samsung Galaxy Book2 (NP750) Intel 12th Gen core i7 39.6cm (15.6) FHD Thin & Light Laptop (16 GB/512 GB/Windows 11/MS Office/Backlit Keyboard/Fingerprint Reader/Silver/1.55Kg), NP750XED-KC2IN",
+        "image":"./img9.jpg",
+        "price":"69 ,000"
+
     }
 ]
