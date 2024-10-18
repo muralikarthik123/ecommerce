@@ -1,22 +1,12 @@
 import React from 'react'
 import './home.css'
-import { FaShoppingCart } from "react-icons/fa";
+
 
 import {Link} from  "react-router-dom";
 export default function home() {
   return (
     <div className='home'>
         
-        {/*heading*/}
-        <div className='heading'>
-          <div>
-            <h1>Techub</h1>
-          </div>
-          <div className='icon1'>
-            <FaShoppingCart className='iconfont'/>
-            
-          </div>
-        </div>
 
       {/*container 2*/}
       <div className='c2'>
