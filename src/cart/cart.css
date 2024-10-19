@@ -1,10 +1,13 @@
 @media(max-width:500px){
     .cart{
         width:100%;
+        .heading{
+            text-align: center;
+        }
        .cartitem{
         width:90%;
         margin-left: 5%;
-        
+
         .left{
             width:90%;
             .image{
@@ -35,7 +38,11 @@
 
 @media(min-width:1200px){
     .cart{
+
         width:100%;
+        .heading{
+            margin-left: 20px;
+        }
        .cartitem{
         width:90%;
         margin-left: 5%;

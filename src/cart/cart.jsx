@@ -5,7 +5,7 @@ export default function Cart({ cartItems }) {
   return (
     <div className='cart'>
     
-      <h1>Shopping Cart</h1>
+      <h1 className='heading'>Shopping Cart</h1>
       {/*cart is emplty*/}
       {cartItems.length === 0 ? (
         <p style={{textAlign:'center'}}>Your Cart is Empty</p>
