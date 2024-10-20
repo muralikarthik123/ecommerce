@@ -1,7 +1,10 @@
 import React from 'react';
 import './cart.css';
+import {Link} from 'react-router-dom'
 
 export default function Cart({ cartItems }) {
+  
+  
   return (
     <div className='cart'>
     
@@ -18,12 +21,13 @@ export default function Cart({ cartItems }) {
               <img src={item.image} alt='' className='image' />
             </div>
 
-            {/*right side data*/}
+            {/*right side data like price*/}
             <div className='right'>
               <h2>{item.name}</h2>
               <h2>Price: {item.price} Rs</h2>
-              <button className='buy'>Buy Now</button>
+              <button className='buy' ><Link to='/pay' style={{textDecoration:'none',color:'white'}}>Buy Now</Link></button>
             </div>
+            
           </div>
         ))
       )}

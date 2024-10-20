@@ -1,0 +1,123 @@
+@media(max-width:500px){
+    .payment{
+        width:100%;
+        .c1{
+            width:90%;
+            margin-left: 5%;
+            p{
+                font-weight:600;
+            }
+            .inputs{
+                width:99%;
+                height:40px;
+            }
+            .c2{
+                
+                display:flex;
+                gap: 35%;
+                .order{
+                    margin-top: 50px;
+                    height:40px;
+                        width:100px;
+                        background-color: rgb(95, 95, 201);
+                        border-radius: 10px;
+                        border:none;
+                        color:white;
+                }
+                .orders{
+                    margin-top: 50px;
+                    height:40px;
+                        width:100px;
+                        background-color: rgb(236, 17, 17);
+                        border-radius: 10px;
+                        border:none;
+                        color:white;
+                }
+            }
+        }
+
+    }
+}
+
+@media(min-width:500px){
+    .payment{
+        width:100%;
+        .c1{
+            width:50%;
+            margin-left: 25%;
+            
+            p{
+                font-weight:600;
+            }
+            .inputs{
+                width:99%;
+                height:40px;
+            }
+            .c2{
+                
+                display:flex;
+                gap: 45%;
+                .order{
+                    margin-top: 50px;
+                    height:40px;
+                        width:100px;
+                        background-color: rgb(95, 95, 201);
+                        border-radius: 10px;
+                        border:none;
+                        color:white;
+                }
+                .orders{
+                    margin-top: 50px;
+                    height:40px;
+                        width:100px;
+                        background-color: rgb(236, 17, 17);
+                        border-radius: 10px;
+                        border:none;
+                        color:white;
+                }
+            }
+        }
+
+    }
+}
+@media(min-width:1200px){
+    .payment{
+        width:100%;
+        .c1{
+            width:50%;
+            margin-left: 25%;
+            
+            p{
+                font-weight:600;
+            }
+            .inputs{
+                width:99%;
+                height:40px;
+            }
+            .c2{
+                
+                display:flex;
+                gap: 65%;
+                .order{
+                    margin-top: 50px;
+                    height:40px;
+                        width:100px;
+                        background-color: rgb(95, 95, 201);
+                        border-radius: 10px;
+                        border:none;
+                        color:white;
+                }
+                .orders{
+                    margin-top: 50px;
+                    height:40px;
+                        width:100px;
+                        background-color: rgb(236, 17, 17);
+                        border-radius: 10px;
+                        border:none;
+                        color:white;
+                }
+            }
+        }
+
+    }
+}

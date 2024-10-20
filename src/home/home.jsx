@@ -16,7 +16,7 @@ export default function home() {
             <li Link to='lap'>Computers</li>
             <li Link to='/mob'>Mobile</li>
             <li Link to='/tab'>Tablet</li>
-            <li Link to='/drone'>Drones & Camera</li>
+            <li>< Link to='/tel' style={{textDecoration:'none',color:'black'}} >Television</Link></li>
         </ul>
       </div>
 
