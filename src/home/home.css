@@ -2,8 +2,6 @@
     .home{
         width:100%;
         cursor:pointer;
-      
-            
         .c2{
             width:100%;
             background-color: rgb(163, 169, 174);
@@ -66,6 +64,15 @@
                     padding-top: 50px;
 
                 }
+                .bt1{
+                    margin-left: 30px;
+                    background-color: rgb(225, 225, 241);
+                    width:80px;
+                    height:30px;
+                    border:none;
+                    font-size: 10px;
+                    border-radius: 10px;
+                }
             }
             .space{
                 width:100%;
@@ -86,6 +93,16 @@
                     width:50%;
                     padding-top: 30px;
                     padding-left: 30px;
+                }
+                .bt1{
+                    margin-left: 30px;
+                    background-color: rgb(225, 225, 241);
+                    width:80px;
+                    height:30px;
+                    border:none;
+                    font-size: 10px;
+                    border-radius: 10px;
+                    color:rgb(95, 95, 201);
                 }
     
             }
@@ -210,12 +227,12 @@
             .bt1{
                 margin-left: 10%;
                 background-color: rgb(95, 95, 201);
-                width:16%;
+                
                 height:55px;
                 border:none;
                 font-size: 20px;
                 color:white;
-                border-radius: 50px;
+                border-radius: 10px;
             }
         }
     
@@ -237,6 +254,15 @@
                     width:40%;
                     margin: 40px;
                 }
+                .bt1{
+                    margin-left: 10%;
+                    background-color: rgb(225, 225, 241);
+                    width:120px;
+                    height:35px;
+                    border:none;
+                    font-size: 18px;
+                    border-radius: 10px;
+                }
             }
             .c6{
                 background-image: url('../images/img3.png');
@@ -245,10 +271,19 @@
                 background-size: 120%;
                 background-repeat: no-repeat;
                 h1{
-                    font-size: 50px;
+                    font-size: 40px;
                     color:white;
                     width:50%;
                     margin: 40px;
+                }
+                .bt1{
+                    margin-left: 10%;
+                    background-color: rgb(225, 225, 241);
+                    width:120px;
+                    height:35px;
+                    border:none;
+                    font-size: 18px;
+                    border-radius: 10px;
                 }
     
             }

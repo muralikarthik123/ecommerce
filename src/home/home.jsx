@@ -1,9 +1,15 @@
 import React from 'react'
 import './home.css'
+import {Link,useNavigate} from  "react-router-dom";
+export default function Home() {
+  const nav=useNavigate()
+  const mobiles=()=>{
+      nav('/mob')
+  }
 
-
-import {Link} from  "react-router-dom";
-export default function home() {
+  const earpodes=()=>{
+    nav('/ear')
+}
   return (
     <div className='home'>
         
@@ -11,11 +17,11 @@ export default function home() {
       {/*container 2*/}
       <div className='c2'>
         <ul>
-            <li><Link  style={{textDecoration:'none',color:'black'}}to='/'>Our Products</Link></li>
+            <li><Link  style={{textDecoration:'none',color:'black'}}to='/'>Our Offers</Link></li>
             <li><Link style={{textDecoration:'none',color:'black'}}to='/com'>Laptops</Link></li>
-            <li Link to='lap'>Computers</li>
-            <li Link to='/mob'>Mobile</li>
-            <li Link to='/tab'>Tablet</li>
+            <li><Link style={{textDecoration:'none',color:'black'}}to='/ear'>Earpodes</Link></li>
+            <li><Link style={{textDecoration:'none',color:'black'}}to='/mob'>Mobiles</Link></li>
+            <li><Link style={{textDecoration:'none',color:'black'}}to='/mob'>Tablets</Link></li>
             <li>< Link to='/tel' style={{textDecoration:'none',color:'black'}} >Television</Link></li>
         </ul>
       </div>
@@ -33,6 +39,7 @@ export default function home() {
       </div>
         <div className='c5'>
           <h1>Up to 30% Off</h1>
+          <button className='bt1' onClick={mobiles}>Shop Now</button>
         </div>
 
         <div className='space'>
@@ -41,6 +48,7 @@ export default function home() {
 
         <div className='c6'>
             <h1>Take your Sound Anywhere</h1>
+            <button className='bt1' onClick={earpodes}>Shop Now</button>
         </div>
       </div>
     </div>

@@ -1,0 +1,33 @@
+[
+    {
+        "id":"1",
+        "name":"Apple iPhone 13 (128GB) - Starlight",
+        "image":"./img15.jpg",
+        "price":"40,000"
+    },
+    {
+        "id":"2",
+        "name":"Apple iPhone 12 (128 GB) - Midnight",
+        "image":"./img16.webp",
+        "price":"50,000"
+    },
+    {
+        "id":"3",
+        "name":"Apple iPhone 15 (128 GB) - Blue",
+        "image":"./img17.webp",
+        "price":"65,000"
+    },
+    {
+        "id":"4",
+        "name":"Apple iPhone 16 (128 GB) - Black",
+        "image":"./img18.webp",
+        "price":"80,000"
+    },
+    {
+        "id":"5",
+        "name":"Apple iPhone 14 (128 GB) - Black",
+        "image":"./img19.jpg",
+        "price":"8,000"
+    }
+
+]

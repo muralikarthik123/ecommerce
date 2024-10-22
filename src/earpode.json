@@ -1,0 +1,39 @@
+[
+    {
+        "id":"1",
+        "name":"Apple AirPods 3 Wireless Earbuds, Bluetooth Headphones, Personalised Spatial Audio, Sweat and Water Resistant, USB-C Charging Case, H2 Chip, Up to 30 Hours...t",
+        "image":"./img20.jpg",
+        "price":"8,000"
+    },
+    {
+        "id":"2",
+        "name":"Apple AirPods 4 Wireless Earbuds, Bluetooth Headphones, Personalised Spatial Audio, Sweat and Water Resistant, USB-C Charging Case, H2 Chip, Up to 30 Hours of Battery Life, Effortless Setup for iPhone",
+        "image":"./img21.jpg",
+        "price":"13,000"
+    },
+    {
+        "id":"3",
+        "name":"OnePlus Buds 3 in Ear TWS Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback(Gray)",
+        "image":"./img22.webp",
+        "price":"4,500"
+    },
+    {
+        "id":"4",
+        "name":"OnePlus Nord Buds 3 Pro Truly Wireless Bluetooth in Ear Earbuds with Upto 49Db Active Noise Cancellation,12.4Mm Dynamic Drivers,10Mins for 11Hrs Fast Charging with Upto 44Hrs Music Playback[Black]",
+        "image":"./img23.jpg",
+        "price":"2,500"
+    },
+    {
+        "id":"5",
+        "name":"Samsung Galaxy in Ear Buds 3 Pro (Silver) with Galaxy Ai | Adaptive ANC | Real-Time Interpreter | 24-Bit Hi-Fi Audio | Up to 37H Battery | Ip57",
+        "image":"./img24.jpg",
+        "price":"20,750"
+    },
+    {
+        "id":"6",
+        "name":"Samsung Galaxy Buds 3 (White) with Galaxy AI Powered Real-time Interpreter | 24-bit Hi-Fi Audio | Up to 36H Battery | IP57",
+        "image":"./img25.jpg",
+        "price":"14,000"
+    }
+
+]

@@ -11,7 +11,7 @@ export default function Cart({ cartItems }) {
       <h1 className='heading'>Shopping Cart</h1>
       {/*cart is emplty*/}
       {cartItems.length === 0 ? (
-        <p style={{textAlign:'center'}}>Your Cart is Empty</p>
+        <h3 style={{textAlign:'center'}}>Your Cart is Empty</h3>
       ) : (
         cartItems.map((item, index) => (
   

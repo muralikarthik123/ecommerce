@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './television.css';
-import Data from '../tele.json';
+import './mobile.css';
+import Data from '../mobile.json';
 import { FaSearch } from "react-icons/fa";
 
 export default function Computer({ addToCart }) {
@@ -15,11 +15,11 @@ export default function Computer({ addToCart }) {
   };
 
   return (
-    <div className='tel'>
+    <div className='com'>
       <div className='heading'>
       {/*laptop heading*/}
         <div>
-          <h1>Television</h1>
+          <h1>Mobiles</h1>
         </div>
 
         {/*input search button*/}

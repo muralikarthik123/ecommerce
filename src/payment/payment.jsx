@@ -10,22 +10,21 @@ export default function Payment() {
     
   }
 
+   /*back button*/
+  const navigate = useNavigate(); 
   /*order details*/
   const check=()=>{
     if(data>=8){
       alert('Order Placed Successfully')
+      navigate('/');
     }
     else{
       alert('Please fill all the details')
     }
   }
 
-  /*back button*/
-
-  const navigate = useNavigate(); 
-  const back=()=>{
-    navigate('/');
-  }
+  
+  
 
   return (
     <div className='payment'>
@@ -63,11 +62,7 @@ export default function Payment() {
           <div>
             <button className='order' onClick={check}>Place order</button>
           </div>
-          <div>
-            <button className='orders' onClick={back} >Back to home</button>
-          </div>
-        </div>
-        
+        </div>        
       </form>
     </div>
   )

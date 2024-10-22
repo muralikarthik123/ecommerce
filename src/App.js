@@ -6,6 +6,9 @@ import Cart from './cart/cart.jsx'; // Import the Cart component
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Tel from './television/television.jsx'
 import Pay from './payment/payment.jsx';
+import Footer from './footer/footer.jsx';
+import Mobile from './mobile/mobile.jsx';
+import Earpodes from './earpodes/earpodes.jsx';
 
 export default function App() {
   const [cartItems, setCartItems] = useState([]); // State to manage cart items
@@ -17,6 +20,11 @@ export default function App() {
 
   /*television add to carting*/
   const addToCart1 = (item) => {
+    setCartItems([...cartItems, item]);
+  };
+
+   /*mobiles add to carting*/
+  const addToCart2 = (item) => {
     setCartItems([...cartItems, item]);
   };
   
@@ -43,9 +51,17 @@ export default function App() {
           {/*televsion*/}
           <Route path='/tel' element={<Tel addToCart={addToCart1} />}/>
 
+          {/*Mobile*/}
+          <Route path='/mob' element={<Mobile addToCart={addToCart2} />}/>
+
+          {/*earpodes*/}
+          <Route path='/ear' element={<Earpodes addToCart={addToCart2} />}/>
           {/*payment*/}
           <Route path='/pay' element={<Pay />}/>
         </Routes>
+        
+        {/*footer*/}
+        <Footer/>
       </BrowserRouter>
     </div>
   );
