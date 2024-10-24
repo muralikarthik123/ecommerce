@@ -21,7 +21,7 @@ export default function Home() {
             <li><Link style={{textDecoration:'none',color:'black'}}to='/com'>Laptops</Link></li>
             <li><Link style={{textDecoration:'none',color:'black'}}to='/ear'>Earpodes</Link></li>
             <li><Link style={{textDecoration:'none',color:'black'}}to='/mob'>Mobiles</Link></li>
-            <li><Link style={{textDecoration:'none',color:'black'}}to='/mob'>Tablets</Link></li>
+            <li><Link style={{textDecoration:'none',color:'black'}}to='/tab'>Tablets</Link></li>
             <li>< Link to='/tel' style={{textDecoration:'none',color:'black'}} >Television</Link></li>
         </ul>
       </div>

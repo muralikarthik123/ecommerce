@@ -113,7 +113,6 @@
     .home{
         width:100%;
         cursor:pointer;
-        
         .c2{
             width:100%;
             background-color: rgb(163, 169, 174);
@@ -150,40 +149,56 @@
                 border:none;
                 font-size: 20px;
                 color:white;
-                border-radius: 50px;
+                border-radius: 10px;
             }
         }
     
         .c4{
-            width:90%;
-            margin-left: 5%;
-            
-            height:320px;
+            width:95%;
+            margin-left: 2%;
+            height: 250px;
             margin-top: 20px;
             display: flex;
             .c5{
                 background-image: url('../images/img2.png');
-                width:45%;
-                background-size: 120%;
+                width:50%;
+                background-size: 140% 250px;
+                
                 background-repeat: no-repeat;
+         
                 h1{
                     font-size: 30px;
                     color:white;
                     width:40%;
                     margin: 40px;
                 }
+                .bt1{
+                    width:100px;
+                    height: 30px;
+                    margin-left: 20px;
+                    border-radius:10px;
+                    border: none;
+                }
             }
             .c6{
                 background-image: url('../images/img3.png');
-                width:45%;
-                margin-left: 10%;
-                background-size: 120%;
+                width:50%;
+                margin-left: 5%;
+                background-size: 140%;
                 background-repeat: no-repeat;
                 h1{
                     font-size: 30px;
                     color:white;
                     width:50%;
-                    margin: 40px;
+                    margin: 20px 10px;
+                }
+
+                .bt1{
+                    width:100px;
+                    height: 30px;
+                    margin-left: 20px;
+                    border-radius:10px;
+                    border: none;
                 }
     
             }

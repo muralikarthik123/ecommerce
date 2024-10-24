@@ -4,6 +4,9 @@
         .heading{
             text-align: center;
         }
+        .emptycart{
+            height:50px;
+        }
        .cartitem{
         width:90%;
         margin-left: 5%;
@@ -43,6 +46,10 @@
         .heading{
             margin-left: 20px;
         }
+
+        .emptycart{
+            height:80px;
+        }
        .cartitem{
         width:90%;
         margin-left: 5%;
@@ -78,18 +85,25 @@
         .heading{
             margin-left: 20px;
         }
+
+        .emptycart{
+            height:100px;
+        }
        .cartitem{
         width:90%;
         margin-left: 5%;
+        
         display:flex;
             .left{
+                width:50%;
                 .image{
-                    width:500px;
-                    height:400px; 
+                    width:450px; 
+                    height:400px;
                     border-radius: 5%;
                 }
             }
             .right{
+                width:50%;
                 padding-top: 80px;
                 h2{
                     font-weight: 400;

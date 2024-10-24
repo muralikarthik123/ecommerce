@@ -9,6 +9,7 @@ import Pay from './payment/payment.jsx';
 import Footer from './footer/footer.jsx';
 import Mobile from './mobile/mobile.jsx';
 import Earpodes from './earpodes/earpodes.jsx';
+import Tablet from './tablet/tablet.jsx';
 
 export default function App() {
   const [cartItems, setCartItems] = useState([]); // State to manage cart items
@@ -27,6 +28,20 @@ export default function App() {
   const addToCart2 = (item) => {
     setCartItems([...cartItems, item]);
   };
+
+   /*earpodes add to carting*/
+   const addToCart3 = (item) => {
+    setCartItems([...cartItems, item]);
+  };
+
+  /*tablet add to carting*/
+  const addToCart4 = (item) => {
+    setCartItems([...cartItems, item]);
+  };
+
+  
+
+  
   
 
 
@@ -55,7 +70,10 @@ export default function App() {
           <Route path='/mob' element={<Mobile addToCart={addToCart2} />}/>
 
           {/*earpodes*/}
-          <Route path='/ear' element={<Earpodes addToCart={addToCart2} />}/>
+          <Route path='/ear' element={<Earpodes addToCart={addToCart3} />}/>
+
+           {/*tablet*/}
+           <Route path='/tab' element={<Tablet addToCart={addToCart4} />}/>
           {/*payment*/}
           <Route path='/pay' element={<Pay />}/>
         </Routes>

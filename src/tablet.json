@@ -1,0 +1,33 @@
+[
+        {
+            "id":"1",
+            "name":"Apple iPad (10th Generation): with A14 Bionic chip, 27.69 cm (10.9″) Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Blue",
+            "image":"./img26.jpg",
+            "price":"30,000"
+        },
+        {
+            "id":"2",
+            "name":"OnePlus Pad Go 28.85cm (11.35 inch) 2.4K 7:5 Ratio ReadFit Eye Care LCD Display, Dolby Atmos Quad Speakers,Wi-Fi Only, 8GB RAM 128 GB ROM Expandable Up-to 1TB, Twin Mint Colour",
+            "image":"./img27.webp",
+            "price":"16,000"
+        },
+        {
+            "id":"3",
+            "name":"Redmi Pad SE| All Day Battery | Qualcomm Snapdragon 680| 90Hz Refresh Rate| 6GB, 128GB Tablet| FHD+ Display (11-inch/27.81cm)| Dolby Atmos| Quad Speakers| Wi-Fi| Gray",
+            "image":"./img28.jpg",
+            "price":"7,000"
+        },
+        {
+            "id":"4",
+            "name":"Lenovo Tab M11 with Pen| Wi-Fi Connectivity| 8 Gb Ram, 128 Gb ROM|11 Inch Screen| 90 Hz, 72% Ntsc, Fhd Display| Quad Speakers with Dolby Atmos|Octa-Core Processor |13 Mp Rear Camera,White",
+            "image":"./img29.webp",
+            "price":"15,000"
+        },
+        {
+            "id":"5",
+            "name":"Samsung Galaxy Tab A9+ 27.94 cm (11.0 inch) Display, RAM 8 GB, ROM 128 GB Expandable, Wi-Fi Tablet, Silver",
+            "image":"./img30.jpg",
+            "price":"15,000"
+        }
+    
+]

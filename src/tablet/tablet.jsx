@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './mobile.css';
-import Data from '../mobile.json';
+
+import Data from '../tablet.json';
 import { FaSearch } from "react-icons/fa";
 
 export default function Computer({ addToCart }) {
@@ -19,7 +19,7 @@ export default function Computer({ addToCart }) {
       <div className='heading'>
       {/*laptop heading*/}
         <div>
-          <h1>Mobiles</h1>
+          <h1>Tablets</h1>
         </div>
 
         {/*input search button*/}
