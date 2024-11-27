@@ -27,7 +27,7 @@ export default function Cart({ cartItems }) {
             <div className='right'>
               <h2>{item.name}</h2>
               <h2>Price: {item.price} Rs</h2>
-              <button className='buy' ><Link to='/pay' style={{textDecoration:'none',color:'white'}}>Buy Now</Link></button>
+              <Link to='/pay' style={{textDecoration:'none',color:'white'}}><button className='buy' >Buy Now</button></Link>
             </div>
             
           </div>
